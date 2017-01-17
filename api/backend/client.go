@@ -17,7 +17,6 @@ type Client struct {
 	id     int
 	ws     *websocket.Conn
 	server *Server
-	game   *Game
 	ch     chan *Message
 	doneCh chan bool
 }
